@@ -10,9 +10,14 @@
     <?php
     $name = "Eldin";
     $age = 23;
+    $_price = 12.23;
     echo "My name is {$name} ";
     echo "and my age is ".$age."<br>";
     echo "<br> I live in tuzla";
+    print "<br>My age is ".$age;
+    echo "<br>The price is ".$_price;
+    $is_allowed = true;
+    echo "<br>".$is_allowed;
     ?>
 </body>
 </html>
