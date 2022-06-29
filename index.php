@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php
-    $cars = array("Audi"=>550.55,"BMW"=>45.345,"Mercedes"=>3453.345);
-    print_r($cars)
+  if statements
     ?>
 </body>
 </html>
