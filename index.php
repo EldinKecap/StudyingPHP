@@ -8,16 +8,8 @@
 </head>
 <body>
     <?php
-    $name = "Eldin";
-    $age = 23;
-    $_price = 12.23;
-    echo "My name is {$name} ";
-    echo "and my age is ".$age."<br>";
-    echo "<br> I live in tuzla";
-    print "<br>My age is ".$age;
-    echo "<br>The price is ".$_price;
-    $is_allowed = true;
-    echo "<br>".$is_allowed;
+    $cars = array("Audi"=>550.55,"BMW"=>45.345,"Mercedes"=>3453.345);
+    print_r($cars)
     ?>
 </body>
 </html>
